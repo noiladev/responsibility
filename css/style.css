@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Livvic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1740px;
+    margin: 0 auto;
+}
+
+.heeader {
+    max-width: 1740px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    background: #014E56;
+}
+
+.heeader a {
+    width: 180px;
+    height: 50px;
+    padding-top: 45px;
+    padding-left: 130px;
+}
+
+.header__nav {
+    width: 300px;
+    padding-top: 55px;
+    margin-left: -280px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.item {
+    font-size: 19px;
+    color: white;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    margin-right: 105px;
+    margin-top: 40px;
+    background-color: #014E56;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.hero {
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #014E56;
+    padding-top: 130px;
+    padding-left: 65px;
+    background-image: url(../img/Group\ 8\ \(5\).png), url(../img/Group\ 4.png);
+    background-repeat: no-repeat;
+    background-position: left center, bottom right 200px;
+}
+
+
+.talent{
+    width: 635px;
+    color: #FFF;
+    font-size: 100px;
+    font-weight: 700px;
+    font-family: 'Livvic', sans-serif;
+}
+
+.hero__span {
+    color: #F67E7E;
+}
+
+.hero p {
+    width: 445px;
+    height: 110px;
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 600px;
+    padding-top: 100px;
+    padding-left: -150px;
+}
+
+.build {
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #012F34;
+}
+
+.build h2 {
+    font-size: 54px;
+    color: #FFF;
+    margin-top: 150px;
+}
+@media (max-width:1770px) {
+    .heeader {
+        max-width: 1100px;
+    }
+    .header__nav {
+        width: 200px;
+        margin-left: 10px;
+    }
+    .btn {
+        width: 95px;
+        height: 30px;
+        margin-top: 53px;
+    }
+    .hero{
+        height: 450px;
+        border: none;
+        max-width: 1105px;
+        background-image: url(../img/Group\ 4.png);
+        background-repeat: no-repeat;
+        background-position: bottom right 250px;
+    }
+    .talent {
+        width: 335px;
+        font-size: 65px;
+        font-weight: 400px;
+    }
+    .hero p{
+        width: 325px;
+        height: 80px;
+        font-size: 15px;
+        padding-right: 55px;
+        padding-top: 27px;
+    }
+    .build{
+        max-width: 1110px;
+        height: 600px;
+    }
+    .build h2{
+        font-size: 34px;
+        margin-top: 200px;
+        margin-left: 75px;
+    }
+    .individuals{
+        width: 600px;
+        height: 380px;
+    }
+    
+    .individuals img{
+        width: 45px;
+        height: 45px;
+    }
+    .individuals span{
+        margin-top: -50px;
+    }
+    .in__spn p{
+        width: 500px;
+    }
+}
+
+.individuals {
+    width: 900px;
+    height: 350px;
+    display: block;
+    justify-content: center;
+    margin-top: 75px;
+    padding-top: 35px;
+}
+
+.individuals div {
+    margin-top: 35px;
+}
+
+.individuals img {
+    width: 75px;
+    height: 75px;
+}
+
+.individuals span {
+    display: block;
+    margin-left: 115px;
+    margin-top: -60px;
+}
+
+.span__h3 {
+    color: #F67E7E;
+    font-size: 19px;
+}
+
+.in__spn p {
+    color: #FFF;
+}
+
+/* responsiby 2 */
+
+@media (max-width: 1112px) {
+    .heeader {
+        max-width: 600px;
+    }
+    .header__nav {
+        width: 100px;
+        margin-left: 150px;
+    }
+    .btn {
+        width: 95px;
+        height: 30px;
+        margin-top: 53px;
+    }
+    .hero{
+        width: 600px;
+        height: 450px;
+        border: none;
+        background-image: url(../img/Group\ 4.png);
+        background-repeat: no-repeat;
+        background-position: bottom  right  ;
+    }
+    .talent {
+        width: 235px;
+        font-size: 48px;
+        font-weight: 400px;
+    }
+    .hero p{
+        width: 325px;
+        height: 80px;
+        font-size: 14px;
+        padding-right: 55px;
+        padding-top: 57px;
+    }
+    .build{
+        max-width:  600px;
+        height:  400px;
+    }
+    .build h2{
+        font-size: 32px;
+        margin-top: 100px;
+        margin-left: 25px;
+    }
+    .individuals{
+        width:  600px;
+        height: 400px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .individuals div{
+        margin-left: 80px;
+    }
+    .in__spn{
+        /* border: 1px solid black; */
+        width: 200px;
+         padding-left: -50px;
+    }
+    .individuals img{
+        width: 45px;
+        height: 45px;
+    }
+    .individuals span{
+        /* margin-top: -50px; */
+    }
+    .in__spn p{
+        font-size: 12px;
+        width: 200px;
+    }
+}
